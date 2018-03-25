@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>首页</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<form action="." method="get" accept-charset="utf-8">
+		<div>
+			YONGH : {{ form.username(id="id-username") }}
+			<small>{{ form.username.description }}</small>
+		</div>
+		<div>
+			{{ form.password.label }} : {{ form.password }}
+		</div>
+		<div>
+			{{ form.language.label }} : 
+			{% for radio in form.language %}
+			<span>{{ radio }} {{ radio.label }}</span>
+			{% endfor %}
+		</div>
+		<div>
+			{{ form.code.label }} : {{ form.code }}
+		</div>
+		<div>
+			{{ form.date.label }} : {{ form.date }}
+		</div>
+		<div>
+			{{ form.is_checked.label }} : {{ form.is_checked }}
+		</div>
+		<div>
+			{{ form.submit.label }} : {{ form.submit }}
+			{{ form.csrf_token }}
+		</div>
+	</form>
+</body>
+</html>

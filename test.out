@@ -1,0 +1,13 @@
+nohup: ignoring input
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 610-791-550
+58.247.152.226 - - [24/Feb/2018 10:43:03] "GET /ding_talk/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:20] "POST /ding_talk/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:24] "POST /ding_talk/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:32] "POST /ding_talk/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:37] "POST /ding_talk/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:46] "GET /control/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:48] "POST /control/ HTTP/1.1" 200 -
+58.247.152.226 - - [24/Feb/2018 10:43:53] "POST /control/ HTTP/1.1" 200 -
